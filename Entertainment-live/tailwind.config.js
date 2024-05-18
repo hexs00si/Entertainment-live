@@ -10,8 +10,11 @@ export default {
         title: ["Zilla Slab"]
       },
       colors:{
-        mininav: "#dfdfde"
+        mininav: "#dfdfde",
+        navbackground: "#9a1212"
+       
       }
+      
     },
   },
   plugins: [],
