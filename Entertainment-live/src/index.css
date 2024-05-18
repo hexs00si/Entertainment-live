@@ -19,14 +19,15 @@
   border-radius: 0.625rem;
   background-image: linear-gradient(0deg, #5b0000 0%, #a80000 100%);
   border: 0.0625rem solid #800100;
-  transition: background-image 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  transition: background-image 0.3s ease, border-color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .btn:hover {
-    background-image: linear-gradient(0deg, #7a1a1a 0%, #c61a1a 100%);
-    border-color: #b30000;
-    transform: scale(1.05);
-  }
+  background-image: linear-gradient(0deg, #7a1a1a 0%, #c61a1a 100%);
+  border-color: #b30000;
+  transform: scale(1.05);
+}
 
 .cardheading {
   background-image: linear-gradient(
@@ -35,5 +36,15 @@
     #a80000 70%,
     #a80000 100%
   );
+  border: 0.0625rem solid #800100;
+}
+
+.pollCard {
+  background-image: linear-gradient(0deg, #7f0a0a 0%, #a80000 100%);
+  border: 0.0625rem solid #800100;
+}
+
+.pollCardBg {
+  background-image: linear-gradient(0deg, #6e0000 0%, #8a0808 100%);
   border: 0.0625rem solid #800100;
 }

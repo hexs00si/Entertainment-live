@@ -11,7 +11,9 @@ export default {
       },
       colors:{
         mininav: "#dfdfde",
-        navbackground: "#9a1212"
+        navbackground: "#9a1212",
+        polltext: "#e0e5ca",
+        pollrow: "#6f0101"
        
       }
       
