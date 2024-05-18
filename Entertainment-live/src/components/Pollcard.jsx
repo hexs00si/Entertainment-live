@@ -2,7 +2,7 @@ import redbtn from "../assets/images/Layer 4 copy 4.png";
 
 const Pollcard = () => {
   return (
-    <div className="pollCardBg p-3 w-[25%] rounded-xl">
+    <div className="pollCardBg p-3 w-[22%] rounded-xl">
       <div className="text-lg font-title text-polltext font-bold pollCard rounded-lg pl-3 mb-1">
         Latest Poll
       </div>
