@@ -13,7 +13,8 @@ export default {
         mininav: "#dfdfde",
         navbackground: "#9a1212",
         polltext: "#e0e5ca",
-        pollrow: "#6f0101"
+        pollrow: "#6f0101",
+        newscap: "#430707"
        
       }
       
