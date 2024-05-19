@@ -1,9 +1,9 @@
-import redbtn from "../assets/images/Layer 4 copy 4.png";
+import redbtn from "/src/assets/images/Layer 4 copy 4.png";
 
 const SecondMininav = () => {
   return (
     <>
-      <ul className="flex justify-between items-center lg:w-[55%] lg:mx-auto lg:gap-0.5 bg-navbackground py-3 px-2 rounded-b-lg overflow-hidden">
+      <ul className="flex justify-between items-center lg:w-[55%] lg:mx-auto lg:gap-0.5 py-3 px-2 rounded-b-lg overflow-hidden">
         <li>
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />

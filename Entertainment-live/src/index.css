@@ -72,3 +72,18 @@
   background-color: #babd99;
   border: 1px solid #7a7c5f;
 }
+
+.navmidcomp {
+  background-color: #520000;
+  border: 1px solid #780000;
+}
+
+.headingtext {
+  filter: drop-shadow(0.5px 0.866px 2.5px rgba(0, 0, 0, 0.52));
+}
+.navbarbg {
+  background-color: #9a1212;
+  border: 1px solid #f9ffe0;
+  background-image: url('/src/assets/images/backgroundnav.png');
+  background-blend-mode: multiply; 
+}

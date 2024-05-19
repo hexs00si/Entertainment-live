@@ -30,7 +30,7 @@ function Mininav() {
 
   return (
     <>
-      <nav className="flex justify justify-evenly content-center w-full overflow-hidden border-b border-solid border-gray-100 bg-black opacity-50 p-2 mt-0">
+      <nav className="flex justify justify-evenly content-center w-full overflow-hidden  bg-black bg-opacity-50 p-2 mt-0">
         <span className="content-center font-title text-xs text-mininav">{formatDate(currdate)}</span>
         <span className="flex justify-between space-x-3">
           <div className="flex space-x-2 content-center">
