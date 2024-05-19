@@ -84,15 +84,18 @@
 .navbarbg {
   background-color: #9a1212;
   border: 1px solid #f9ffe0;
-  background-image: url('/src/assets/images/backgroundnav.png');
-  background-blend-mode: multiply; 
+  background-image: url("/src/assets/images/backgroundnav.png");
+  background-blend-mode: multiply;
 }
 
-.contentbackg{
-    background-image: url('/src/assets/images/backbubble.png');
-    background-color: #e0e5ca;
-    background-size: 70%;
-    background-repeat: repeat-y ;
-    background-position-x: center;
-
+.contentbackg {
+  background-image: url("/src/assets/images/backbubble.png");
+  background-color: #e0e5ca;
+  background-size: 70%;
+  background-repeat: repeat-y;
+  background-position-x: center;
+}
+.footer{
+    background-color: #660000;
+    border: 0.0625rem solid #f9ffe0;
 }
