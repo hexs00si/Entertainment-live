@@ -87,3 +87,12 @@
   background-image: url('/src/assets/images/backgroundnav.png');
   background-blend-mode: multiply; 
 }
+
+.contentbackg{
+    background-image: url('/src/assets/images/backbubble.png');
+    background-color: #e0e5ca;
+    background-size: 70%;
+    background-repeat: repeat-y ;
+    background-position-x: center;
+
+}

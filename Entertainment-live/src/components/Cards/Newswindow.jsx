@@ -1,5 +1,5 @@
-import redbtn from "../assets/images/Layer 4 copy 4.png";
-import newsimage from "../assets/images/Layer 14.png";
+import redbtn from '/src/assets/images/Layer 4 copy 4.png';
+import newsimage from "/src/assets/images/Layer 14.png";
 
 const Newswindow = () => {
   return (
