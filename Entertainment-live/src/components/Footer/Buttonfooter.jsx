@@ -2,7 +2,7 @@
 
 const Buttonfooter = () => {
   return (
-    
+
     <div className=" rounded-t-lg">
       <ul className="flex justify-between items-center lg:w-[55%] lg:mx-auto lg:gap-0.5 py-3 px-2 rounded-b-lg overflow-hidden">
         <li>

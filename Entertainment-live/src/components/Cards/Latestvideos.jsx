@@ -3,7 +3,7 @@ import man from '/src/assets/images/Layer 21.png';
 
 const Latestvideos = () => {
   return (
-    <div className='flex flex-row w-2/3 mx-auto items-start videocardBg rounded-xl p-3 gap-4'>
+    <div className='md:flex md:flex-row md:w-2/3 md:mx-auto flex-col w-full  items-start videocardBg rounded-xl md:p-3 p-1.5 gap-4'>
         <img className='rounded-xl w-1/2 h-full object-cover' src={saif} alt="" />
         <div className='flex flex-col gap-1.5'>
         <div className='flex items-start vidRow rounded gap-0.5 p-0.5'>

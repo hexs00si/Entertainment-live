@@ -3,8 +3,8 @@ import newsimage from "/src/assets/images/Layer 14.png";
 
 const Newswindow = () => {
   return (
-    <div className="newsWindow rounded-xl flex w-[55%] mx-auto justify-around items-center gap-x-0 gapy-y-0">
-      <div className="relative px-2 mx-2 py-4 w-[55%] h-2/3 object-cover group">
+    <div className="newsWindow rounded-xl flex-col md:flex md:flex-row md:w-[55%] w-full md:mx-auto justify-around items-center gap-x-0 gapy-y-0 px-2">
+      <div className="relative px-2 mx-2 py-4 w-full md:w-[55%] h-1/2 md:h-2/3 object-cover group">
         <img
           className="w-full h-full object-contain rounded-lg shadow-lg border-solid transition duration-300 ease-in-out transform hover:scale-105"
           src={newsimage}
@@ -19,8 +19,8 @@ const Newswindow = () => {
           </button>
         </div>
       </div>
-      <div className="w-[40%]">
-        <h2 className="text-lg font-title text-black text-start font-bold">
+      <div className="w-full md:w-[40%]">
+        <h2 className="text-center text-lg font-title text-black md:text-start font-bold">
           Latest <span className="text-navbackground">Articles</span>
         </h2>
         <ul className="newsWindowul rounded-xl flex flex-col gap-2 w-full">
@@ -28,7 +28,7 @@ const Newswindow = () => {
             <span className="flex gap-2">
               <img className="size-3 ml-2" src={redbtn} alt="" />
               <p className="font-sans text-xs font-light">
-                News headline dummy text shut yo bum ahh up bummy head ahh 
+                News headline dummy text 
               </p>
             </span>
           </li>

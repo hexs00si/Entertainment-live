@@ -3,7 +3,7 @@ import redbtn from "/src/assets/images/Layer 4 copy 4.png";
 const SecondMininav = () => {
   return (
     <>
-      <ul className="flex justify-between items-center lg:w-[55%] lg:mx-auto lg:gap-0.5 py-3 px-2 rounded-b-lg overflow-hidden">
+      <ul className="flex justify-between items-center md:w-[55%] md:mx-auto md:gap-0.5 py-3 px-2 rounded-b-lg overflow-hidden">
         <li>
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
