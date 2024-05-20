@@ -11,7 +11,7 @@ const Newswindow = () => {
       "https://newsapi.org/v2/top-headlines?country=us&apiKey=72006d00cece4909b82b68131df9dc66"
     );
     let data = await response.json();
-    setMyNews(data.articles.slice(0, 6));  // Get only the first 6 articles
+    setMyNews(data.articles?.slice(0, 6));  // Get only the first 6 articles
     setSelectedArticle(data.articles[0]);  // Set the first article as the default selected article
   };
 
