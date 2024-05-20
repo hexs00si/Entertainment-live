@@ -3,6 +3,8 @@ import Mininav from "./Mininav";
 import SecondMininav from "./SecondMininav";
 import redbtn from "/src/assets/images/Layer 4 copy 4.png";
 
+
+// conditionally render the buttonnav on smaller screens 
 const useMediaQuery = (query) => {
   const [matches, setMatches] = useState(false);
 
@@ -19,7 +21,7 @@ const useMediaQuery = (query) => {
 
   return matches;
 };
-
+// making use of the width
 const Navbar = () => {
   const isMdOrLarger = useMediaQuery('(min-width: 768px)');
 

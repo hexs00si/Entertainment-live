@@ -4,7 +4,7 @@ const SecondMininav = () => {
   return (
     <>
       <ul className="flex justify-between items-center md:w-[55%] md:mx-auto md:gap-0.5 py-3 px-2 rounded-b-lg overflow-hidden">
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold text-white">
@@ -12,7 +12,7 @@ const SecondMininav = () => {
             </p>
           </span>
         </li>
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold  text-white">
@@ -20,7 +20,7 @@ const SecondMininav = () => {
             </p>
           </span>
         </li>
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold  text-white">
@@ -28,7 +28,7 @@ const SecondMininav = () => {
             </p>
           </span>
         </li>
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold  text-white">
@@ -36,7 +36,7 @@ const SecondMininav = () => {
             </p>
           </span>
         </li>
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold  text-white">
@@ -44,7 +44,7 @@ const SecondMininav = () => {
             </p>
           </span>
         </li>
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold  text-white">
@@ -52,7 +52,7 @@ const SecondMininav = () => {
             </p>
           </span>
         </li>
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold  text-white">
@@ -60,7 +60,7 @@ const SecondMininav = () => {
             </p>
           </span>
         </li>
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold  text-white">
@@ -68,7 +68,7 @@ const SecondMininav = () => {
             </p>
           </span>
         </li>
-        <li>
+        <li className="transition-transform duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
           <span className="flex items-center justify-between gap-1">
             <img src={redbtn} alt="btn" />
             <p className="text-xs font-title text-center font-semibold  text-white">
